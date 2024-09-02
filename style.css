@@ -1,3 +1,43 @@
-body {
-    font-size: 15pt;
+*{
+   margin:0px;
+   padding:0px;
+   box-sizing:border-box;
+  
+}
+.nav-cont{
+   width:100%;
+   height:60px;
+   background-color:#131921;
+   display:flex;
+}
+.sub-cont{
+   width:100%;
+   height:39px;
+   background-color:#232f3e;
+}
+.amz-logo{
+   
+   height:60px;
+   /* background-image:url("/logos/amz-logo.jpeg"); */
+   background-size:contain;
+   background-repeat:no-repeat;
+   
+   
+   
+}
+.amz-logo img{
+   padding-top:16px;
+   padding-left:17px;
+   height:48px;
+   
+}
+.delv-cont{
+   width:100px;
+   height:60px;
+   background-color:red;
+   
+}
+.ri-map-pin-line{
+   color:white;
+   width:10px;
 }
